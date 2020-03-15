@@ -18,9 +18,10 @@ h1 {
   text-align: center;
 }
 
-.bun-type {
+.btn .btn-danger {
   color: yellow;
 }
+
 #burger {
   max-height: 30%;
 }
