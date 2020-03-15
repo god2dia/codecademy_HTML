@@ -18,6 +18,9 @@ h1 {
   text-align: center;
 }
 
+.bun-type {
+  color: yellow;
+}
 #burger {
   max-height: 30%;
 }
