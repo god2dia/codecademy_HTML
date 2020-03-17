@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <title>Form a Story</title>
-  </head>
-  <body>
-    <section id="top">
-      <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
-    </section>
-
-    <section id="main">
-      <h1>Complete the Form -<br> Complete the Story!</h1>
-      <hr>
-      <!--Add your form below:-->
-      <form action="story.html" method="GET">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Form a Story</title>
+</head>
+<body>
+  <section id="top">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
+  </section>
+  <section id="main">
+    <h1>Complete the Form -<br> Complete the Story!</h1>
+    <hr>
+    <!--Add your form below:-->
+    <form action="story.html" method="GET">
+      <!--<label>을 이러한 <input> 요소와 연결하여 사용자가 입력 내용을 알 수 있도록하려고합니다-->
+        <label for="animal-1">Animal:</label>
+        <input required id="animal-1" type="text" name="animal-1">
+        <br>
     </section>
   </body>
 </html>
