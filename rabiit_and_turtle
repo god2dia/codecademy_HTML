@@ -28,6 +28,18 @@
         <label for="animal-3">One More Animal:</label>
         <input required id="animal-3" type="text" name="animal-3">
         <br>
+
+<!-- 스토리에 필요한 내용 추가 -->
+        <label for="adj-1">Adjective (past tense): </label>
+        <input required id="adj-1" type="text" name="adj-1">
+        <br>
+        <label for="verb-1">Verb (ends in -ing): </label>
+        <input required id="verb-1" type="text" name="verb-1">
+        <br>
+        <label for="num-1">Number: </label>
+        <input required id="num-1" type="number" name="num-1">
+        <br>
+
       </section>
     </body>
     </html>
