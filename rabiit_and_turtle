@@ -10,7 +10,6 @@
   <section id="top">
     <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
   </section>
-
   <section id="main">
     <h1>Complete the Form -<br> Complete the Story!</h1>
     <hr>
