@@ -48,6 +48,15 @@
         <input required id="no" type="radio" name="answer" value="no">
         <label for="no">No</label>
 
+        <!--사용자에게 속도 옵션 드롭 다운 목록을 제공 -->
+        <label for="speed">Relative speed (ends in -er):
+          <select required id="speed" name="speed">
+            <option value="faster">Faster</option>
+            <option value="slow">Slow</option>
+          </select>
+        </label>
+        <br>
+        
       </section>
     </body>
     </html>
