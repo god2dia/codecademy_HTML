@@ -64,7 +64,15 @@
           <option value="looser don't gets ice cream!"></option>
         </datalist>
         <br>
-        
+
+        <!--좋은 이야기에는 중요한 내용이 담겨 있으므로 사용자에게이 메시지를 제공-->
+        <label for="message">Meaningful Message:</label>
+          <textarea required id="some-od" name="a-name" rows="8" cols="40">
+          </textarea>
+        <br>
+        <br>
+        <input type="submit" value="Form My Story!">
+      </form>
       </section>
     </body>
     </html>
