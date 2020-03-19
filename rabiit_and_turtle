@@ -56,6 +56,15 @@
           </select>
         </label>
         <br>
+
+        <!--사용자에게 몇 가지 옵션을 제공-->
+          <label for="quote">Motivational Quote:</label>
+            <input required id="quote" name="quote" type="text" list="quote-choices">
+        <datalist id="quote-choices">
+          <option value="winner gets ice cream!"></option>
+          <option value="looser don't gets ice cream!"></option>
+        </datalist>
+        <br>
         
       </section>
     </body>
