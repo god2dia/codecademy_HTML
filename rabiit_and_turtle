@@ -40,6 +40,14 @@
         <input required id="num-1" type="number" name="num-1">
         <br>
 
+        <!-- 사용자에게 선택 권한 Yes선택 -->
+        <span>Yes or No: </span>
+        <input required id="yes" type="radio" name="answer" value="yes">
+        <label for="yes">Yes</label>
+        <!-- No 선택 -->
+        <input required id="no" type="radio" name="answer" value="no">
+        <label for="no">No</label>
+
       </section>
     </body>
     </html>
