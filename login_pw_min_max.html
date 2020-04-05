@@ -1,3 +1,4 @@
+<!-- 아이디 최소, 최대 길이 제한 -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -8,16 +9,19 @@
   </head>
   <body>
     <section class="overlay">
-			<h1>Sign Up</h1>
+      <h1>Sign Up</h1>
       <p>Create an account:</p>
       <form action="submission.html" method="GET">
         <label for="username">Username:</label>
         <br>
-				<input id="username" name="username" type="text" required minlength="3" maxlength="15">
+        <!-- 아이디 길이 최소3, 최대 15 -->
+        <input id="username" name="username" type="text" required minlength="3" maxlength="15">
         <br>
+
         <label for="pw">Password:</label>
         <br>
-				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <!-- 패스워드 길이 최소8, 최대 15 -->
+        <input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
         <br>
         <input type="submit" value="Submit">
       </form>
